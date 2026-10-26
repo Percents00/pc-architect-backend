@@ -1,0 +1,266 @@
+{
+  "categories": [
+    {
+      "id": "84476990-95f3-5e53-89c8-ef57985fc539",
+      "name": "Процессор (CPU)",
+      "code_slug": "cpu",
+      "display_order": 0
+    },
+    {
+      "id": "363e6ab0-42f5-5cea-ac04-835bc996c241",
+      "name": "Материнская плата",
+      "code_slug": "motherboard",
+      "display_order": 1
+    },
+    {
+      "id": "4fafa2d8-7b15-5595-a868-fba07ffa6dde",
+      "name": "Видеокарта (GPU)",
+      "code_slug": "gpu",
+      "display_order": 2
+    },
+    {
+      "id": "89d17184-ffb0-5057-b728-e9126abf2dfe",
+      "name": "Оперативная память (RAM)",
+      "code_slug": "ram",
+      "display_order": 3
+    },
+    {
+      "id": "f3ed7281-3f05-5a6b-976b-7e78f429fb5f",
+      "name": "Блок питания (PSU)",
+      "code_slug": "psu",
+      "display_order": 4
+    },
+    {
+      "id": "71f5cbf4-aff5-53ce-93ac-21f115d9017a",
+      "name": "Корпус",
+      "code_slug": "case",
+      "display_order": 5
+    },
+    {
+      "id": "369d1486-81a7-51ed-ade2-a9b48b15a233",
+      "name": "Система охлаждения (Cooler)",
+      "code_slug": "cooler",
+      "display_order": 6
+    }
+  ],
+  "components": [
+    {
+      "id": "bfba8c48-1bd4-5587-9e85-cf6a4289e350",
+      "category_id": "84476990-95f3-5e53-89c8-ef57985fc539",
+      "category": "cpu",
+      "name": "AMD Ryzen 7 7800X3D",
+      "socket": "AM5",
+      "base_tdp": 120,
+      "supported_memory_type": "DDR5",
+      "source_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html"
+    },
+    {
+      "id": "d315d47b-ab17-59f5-98ef-64ba277dc1db",
+      "category_id": "84476990-95f3-5e53-89c8-ef57985fc539",
+      "category": "cpu",
+      "name": "AMD Ryzen 5 5600",
+      "socket": "AM4",
+      "base_tdp": 65,
+      "supported_memory_type": "DDR4",
+      "source_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html"
+    },
+    {
+      "id": "e5d6e1da-e73a-5720-a70e-c8564181b954",
+      "category_id": "84476990-95f3-5e53-89c8-ef57985fc539",
+      "category": "cpu",
+      "name": "AMD Ryzen 5 7600",
+      "socket": "AM5",
+      "base_tdp": 65,
+      "supported_memory_type": "DDR5",
+      "source_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html"
+    },
+    {
+      "id": "417eface-2505-5c96-a3d7-c7ab3e8a6922",
+      "category_id": "363e6ab0-42f5-5cea-ac04-835bc996c241",
+      "category": "motherboard",
+      "name": "ASUS ROG STRIX B650E-E GAMING WIFI",
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "ram_type": "DDR5",
+      "ram_slots_count": 4,
+      "source_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-e-gaming-wifi-model/spec/"
+    },
+    {
+      "id": "a3770a73-3cdd-5906-9280-6a39e373c82b",
+      "category_id": "363e6ab0-42f5-5cea-ac04-835bc996c241",
+      "category": "motherboard",
+      "name": "MSI B550M PRO-VDH WIFI",
+      "socket": "AM4",
+      "form_factor": "Micro-ATX",
+      "ram_type": "DDR4",
+      "ram_slots_count": 4,
+      "source_url": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI/Specification"
+    },
+    {
+      "id": "68a20c48-9e74-5a41-8583-b97b3e36ab71",
+      "category_id": "363e6ab0-42f5-5cea-ac04-835bc996c241",
+      "category": "motherboard",
+      "name": "MSI PRO B650M-A WIFI",
+      "socket": "AM5",
+      "form_factor": "Micro-ATX",
+      "ram_type": "DDR5",
+      "ram_slots_count": 4,
+      "source_url": "https://us.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification"
+    },
+    {
+      "id": "e58899ac-92a2-5adf-9732-6431649c2dfb",
+      "category_id": "4fafa2d8-7b15-5595-a868-fba07ffa6dde",
+      "category": "gpu",
+      "name": "MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 3X OC",
+      "length_mm": 308,
+      "tdp": 285,
+      "recommended_psu_wattage": 700,
+      "source_url": "https://pl-store.msi.com/products/geforce-rtx-4070-ti-super-16g-ventus-3x-oc"
+    },
+    {
+      "id": "70bbb098-01e6-56c2-b731-9f28338dbb5d",
+      "category_id": "4fafa2d8-7b15-5595-a868-fba07ffa6dde",
+      "category": "gpu",
+      "name": "MSI GeForce RTX 4060 VENTUS 2X BLACK 8G OC",
+      "length_mm": 199,
+      "tdp": 120,
+      "recommended_psu_wattage": 550,
+      "source_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-VENTUS-2X-BLACK-8G-OC/Specification",
+      "spec_note": "Производитель указывает 115 или 120 Вт; для расчёта принято 120 Вт."
+    },
+    {
+      "id": "fc5b42f7-c136-52c1-88a0-70bf6b71f1d7",
+      "category_id": "4fafa2d8-7b15-5595-a868-fba07ffa6dde",
+      "category": "gpu",
+      "name": "MSI GeForce RTX 4080 SUPER 16G VENTUS 3X",
+      "length_mm": 322,
+      "tdp": 320,
+      "recommended_psu_wattage": 750,
+      "source_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-16G-VENTUS-3X/Specification"
+    },
+    {
+      "id": "df9c4df6-a6ec-5dc1-9118-9ef58caa0018",
+      "category_id": "89d17184-ffb0-5057-b728-e9126abf2dfe",
+      "category": "ram",
+      "name": "Kingston FURY Beast DDR5 16 ГиБ KF556C40BB-16",
+      "memory_type": "DDR5",
+      "capacity_gb": 16,
+      "height_mm": 35,
+      "source_url": "https://www.kingston.com/datasheets/KF556C40BB-16.pdf",
+      "spec_note": "Высота 34,9 мм округлена вверх до 35 мм."
+    },
+    {
+      "id": "a6b771a9-15d7-560d-a908-776329b92616",
+      "category_id": "89d17184-ffb0-5057-b728-e9126abf2dfe",
+      "category": "ram",
+      "name": "Kingston FURY Beast DDR4 8 ГиБ KF432C16BB/8",
+      "memory_type": "DDR4",
+      "capacity_gb": 8,
+      "height_mm": 34,
+      "source_url": "https://www.kingston.com/datasheets/KF432C16BB_8.pdf"
+    },
+    {
+      "id": "0f61c4c1-21e4-5db8-824d-af86e943b7f5",
+      "category_id": "89d17184-ffb0-5057-b728-e9126abf2dfe",
+      "category": "ram",
+      "name": "Kingston FURY Beast DDR5 32 ГиБ KF556C40BB-32",
+      "memory_type": "DDR5",
+      "capacity_gb": 32,
+      "height_mm": 35,
+      "source_url": "https://www.kingston.com/datasheets/KF556C40BB-32.pdf",
+      "spec_note": "Высота 34,9 мм округлена вверх до 35 мм."
+    },
+    {
+      "id": "58dbf284-daad-5145-997a-73c7c20cdded",
+      "category_id": "f3ed7281-3f05-5a6b-976b-7e78f429fb5f",
+      "category": "psu",
+      "name": "Seasonic FOCUS GX-750",
+      "wattage": 750,
+      "form_factor": "ATX",
+      "efficiency_certificate": "80 PLUS Gold",
+      "source_url": "https://seasonic.com/focus-gx/"
+    },
+    {
+      "id": "dff3b977-970e-5256-b704-c0208e174ecf",
+      "category_id": "f3ed7281-3f05-5a6b-976b-7e78f429fb5f",
+      "category": "psu",
+      "name": "Corsair CV450",
+      "wattage": 450,
+      "form_factor": "ATX",
+      "efficiency_certificate": "80 PLUS Bronze",
+      "source_url": "https://www.corsair.com/ww/en/p/psu/cp-9020209-na/cv-series-cv450-450-watt-80-plus-bronze-certified-psu-cp-9020209-na"
+    },
+    {
+      "id": "0662738d-7d20-510f-9808-ae623f391222",
+      "category_id": "f3ed7281-3f05-5a6b-976b-7e78f429fb5f",
+      "category": "psu",
+      "name": "Seasonic FOCUS GX-1000",
+      "wattage": 1000,
+      "form_factor": "ATX",
+      "efficiency_certificate": "80 PLUS Gold",
+      "source_url": "https://seasonic.com/focus-gx/"
+    },
+    {
+      "id": "ceff7290-2b36-532a-82fc-5c040e5f4713",
+      "category_id": "71f5cbf4-aff5-53ce-93ac-21f115d9017a",
+      "category": "case",
+      "name": "Fractal Design Meshify 2 Lite",
+      "supported_motherboard_formats": "E-ATX (до 285 мм), ATX, Micro-ATX, Mini-ITX",
+      "max_gpu_length_mm": 451,
+      "max_cooler_height_mm": 185,
+      "source_url": "https://www.fractal-design.com/app/uploads/2022/05/Meshify-2-Lite-Manual.pdf",
+      "spec_note": "Длина GPU указана с установленным передним вентилятором."
+    },
+    {
+      "id": "7fbcbc7b-5d99-5e8a-b352-4372b1a82578",
+      "category_id": "71f5cbf4-aff5-53ce-93ac-21f115d9017a",
+      "category": "case",
+      "name": "Fractal Design Pop Mini Air",
+      "supported_motherboard_formats": "Micro-ATX, Mini-ITX",
+      "max_gpu_length_mm": 365,
+      "max_cooler_height_mm": 170,
+      "source_url": "https://www.fractal-design.com/ja/products/cases/pop-series/pop-mini-air/pop-mini-air-rgb-black-tg-clear-tint/"
+    },
+    {
+      "id": "c988e500-020d-5ffd-b9a1-db8f75eb3f23",
+      "category_id": "71f5cbf4-aff5-53ce-93ac-21f115d9017a",
+      "category": "case",
+      "name": "Fractal Design North TG",
+      "supported_motherboard_formats": "ATX, Micro-ATX, Mini-ITX",
+      "max_gpu_length_mm": 355,
+      "max_cooler_height_mm": 170,
+      "source_url": "https://www.fractal-design.com/app/uploads/2022/12/North-Manual-V1.2.pdf",
+      "spec_note": "Пределы для воздушного охлаждения без переднего радиатора."
+    },
+    {
+      "id": "0ad31dc7-d5f0-5ee7-8e9a-9ce713dbf9ec",
+      "category_id": "369d1486-81a7-51ed-ade2-a9b48b15a233",
+      "category": "cooler",
+      "name": "DeepCool AK400",
+      "max_tdp_dissipation": 220,
+      "height_mm": 155,
+      "supported_sockets": "AM5, AM4, LGA1851, LGA1700, LGA1200, LGA1151, LGA1150, LGA1155",
+      "source_url": "https://www.deepcool.com/products/Cooling/cpuaircoolers/AK400-Performance-CPU-Cooler-1851-1700-AM5/2024/15222.shtml"
+    },
+    {
+      "id": "a96718f8-86e2-5bc3-bac8-146b4f70536b",
+      "category_id": "369d1486-81a7-51ed-ade2-a9b48b15a233",
+      "category": "cooler",
+      "name": "DeepCool AG400",
+      "max_tdp_dissipation": 220,
+      "height_mm": 150,
+      "supported_sockets": "AM5, AM4, LGA1700, LGA1200, LGA1151, LGA1150, LGA1155",
+      "source_url": "https://www.deepcool.com/products/Cooling/cpuaircoolers/GAMMAXX-AG400-Single-Tower-CPU-Cooler-1700-AM5/2022/15898.shtml"
+    },
+    {
+      "id": "4e74927f-e143-5755-95f0-c53efd453f5a",
+      "category_id": "369d1486-81a7-51ed-ade2-a9b48b15a233",
+      "category": "cooler",
+      "name": "DeepCool AK620",
+      "max_tdp_dissipation": 260,
+      "height_mm": 160,
+      "supported_sockets": "AM5, AM4, LGA2066, LGA2011-v3, LGA2011, LGA1700, LGA1200, LGA1151, LGA1150, LGA1155",
+      "source_url": "https://www.deepcool.com/products/Cooling/cpuaircoolers/AK620-High-Performance-CPU-Cooler-1700-AM5/2021/13067.shtml"
+    }
+  ]
+}

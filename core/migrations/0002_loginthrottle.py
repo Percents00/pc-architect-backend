@@ -1,0 +1,22 @@
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('core', '0001_initial'),
+    ]
+
+    operations = [
+        migrations.CreateModel(
+            name='LoginThrottle',
+            fields=[
+                ('key', models.CharField(max_length=64, primary_key=True, serialize=False)),
+                ('failures', models.PositiveSmallIntegerField(default=0)),
+                ('window_started', models.DateTimeField()),
+            ],
+            options={
+                'db_table': 'login_throttle',
+            },
+        ),
+    ]
