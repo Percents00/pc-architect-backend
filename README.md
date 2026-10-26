@@ -18,10 +18,13 @@ PC_ARCHITECT/
   documentation/
 ```
 
+Перед созданием окружения проверьте `python --version`: команда должна запускать Python 3.14, на котором проверен проект. При установке Python добавьте его в PATH. Если команда запускает другую версию, укажите полный путь к нужному `python.exe`. Само расположение папки установки значения не имеет.
+
 Из папки `backend`, при работающем PostgreSQL:
 
 ```powershell
-& "$env:LOCALAPPDATA\Programs\Python\Python314\python.exe" -m venv .venv
+python --version
+python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 $pgPassword = Read-Host "Пароль PostgreSQL" -AsSecureString
 $env:PGPASSWORD = [System.Net.NetworkCredential]::new("", $pgPassword).Password
@@ -32,7 +35,7 @@ Remove-Variable pgPassword
 .\.venv\Scripts\python.exe manage.py runserver
 ```
 
-Готовое окружение не создавайте повторно; существующую БД повторно создавать не нужно. При другой папке установки Python или PostgreSQL измените путь. Откройте `http://127.0.0.1:8000/`. Остановка — `Ctrl+C`.
+Готовое окружение не создавайте повторно; существующую БД повторно создавать не нужно. При другой папке установки PostgreSQL измените путь к его программе. Откройте `http://127.0.0.1:8000/`. Остановка — `Ctrl+C`.
 
 ## Следующий запуск
 
