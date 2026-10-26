@@ -2,6 +2,11 @@
 
 Django 5.2, Python 3.14, PostgreSQL 18. API каталога, регистрации, токенов и приватных сборок. Модели и миграции БД находятся в этом репозитории.
 
+## Репозитории проекта
+
+- [Фронтенд](https://github.com/Percents00/pc-architect-frontend)
+- [Документация](https://github.com/Percents00/pc-architect-docs)
+
 ## Подготовка
 
 Разместите репозитории рядом:
@@ -59,3 +64,5 @@ $env:FRONTEND_DIR = "D:\путь\к\фронтенду"
 ```
 
 После изменения моделей создайте миграции через `makemigrations`, затем примените `migrate`.
+
+Не включайте в репозиторий `.venv`, `.env` и `.django-secret-key` — они исключены через `.gitignore`. Общая документация находится в репозитории [pc-architect-docs](https://github.com/Percents00/pc-architect-docs).
